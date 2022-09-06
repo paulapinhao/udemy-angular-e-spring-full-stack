@@ -1,7 +1,7 @@
 package io.github.paulapinhao.clientes.rest;
 
 import io.github.paulapinhao.clientes.model.entity.Usuario;
-import io.github.paulapinhao.clientes.rest.exception.UsuarioCadastradoException;
+import io.github.paulapinhao.clientes.exception.UsuarioCadastradoException;
 import io.github.paulapinhao.clientes.service.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

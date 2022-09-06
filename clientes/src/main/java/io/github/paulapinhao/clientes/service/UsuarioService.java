@@ -2,7 +2,7 @@ package io.github.paulapinhao.clientes.service;
 
 import io.github.paulapinhao.clientes.model.entity.Usuario;
 import io.github.paulapinhao.clientes.model.repository.UsuarioRepository;
-import io.github.paulapinhao.clientes.rest.exception.UsuarioCadastradoException;
+import io.github.paulapinhao.clientes.exception.UsuarioCadastradoException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

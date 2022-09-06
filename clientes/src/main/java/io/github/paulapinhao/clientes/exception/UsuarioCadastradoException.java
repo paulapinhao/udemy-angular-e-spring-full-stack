@@ -1,4 +1,4 @@
-package io.github.paulapinhao.clientes.rest.exception;
+package io.github.paulapinhao.clientes.exception;
 
 public class UsuarioCadastradoException extends RuntimeException {
     public UsuarioCadastradoException(String login) {

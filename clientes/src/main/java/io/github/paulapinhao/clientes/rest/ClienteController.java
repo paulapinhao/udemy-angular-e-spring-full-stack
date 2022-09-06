@@ -4,18 +4,14 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-import io.github.paulapinhao.clientes.rest.exception.ClienteCadastradoException;
+import io.github.paulapinhao.clientes.exception.ClienteCadastradoException;
 import io.github.paulapinhao.clientes.service.ClienteService;
-import io.github.paulapinhao.clientes.service.UsuarioService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import io.github.paulapinhao.clientes.model.entity.Cliente;
-import io.github.paulapinhao.clientes.model.repository.ClienteRepository;
 
 @RestController
 @RequestMapping("/api/clientes")
